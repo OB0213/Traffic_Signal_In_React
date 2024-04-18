@@ -1,5 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.circle1{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border: 2.5px solid black;
+  background-color: red;
+}
+
+.circleyellow1{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border: 2.5px solid black;
+  background-color: #F2CD13;
+}
+
+.circlegreen1{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border: 2.5px solid black;
+  background-color: green;
+}
+
+.circle2{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border: 2.5px solid black;
+  background-color: white;
+}
+
+.circleyellow2{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border: 2.5px solid black;
+  background-color: white;
+}
+
+.circlegreen2{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border: 2.5px solid black;
+  background-color: white;
+}
+
+.mydivdata
+{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2.5px solid black;
+  margin-top: 2rem;
+  background-color: blueviolet;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mytimebox{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  font-size: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F5E5E5;
+  margin-top: 10px;
+  text-shadow: 1.2px 1.2px 1.2px black;
+  border: 2.1px solid black;
 }
 
 .App-logo {
